@@ -1,0 +1,16 @@
+.login-custom-col {
+  /* fallback for old browsers */
+  background: #fccb90;
+}
+
+@media (min-width: 768px) {
+  .login-form {
+    height: 100vh !important;
+  }
+}
+@media (min-width: 769px) {
+  .login-custom-col {
+    border-top-right-radius: 0.3rem;
+    border-bottom-right-radius: 0.3rem;
+  }
+}

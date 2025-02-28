@@ -1,0 +1,141 @@
+.sliding-txt {
+  color: var(--main-col);
+  font-size: 1.5rem;
+}
+.dashboard-section {
+  margin-top: var(--wrapper-padding);
+}
+
+.dashboard-title {
+  font-size: var(--page-title-size);
+  font-weight: 500;
+}
+
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--wrapper-padding);
+  margin-top: var(--wrapper-padding);
+
+  & > article {
+    border-radius: 10px;
+  }
+
+  & > article:nth-child(4) {
+    grid-row-start: 2;
+    grid-column: 1 / -2;
+  }
+  & > article:nth-child(5) {
+    grid-row: span 2;
+  }
+}
+.dashboard-grid-container {
+  container-type: inline-size;
+
+  @container (width <= 670px) {
+    & > .dashboard-grid {
+      grid-template-columns: 1fr;
+
+      & > article:nth-child(4) {
+        grid-row-start: auto;
+      }
+    }
+  }
+  @container (width <= 475px) {
+    .dashboard-grid-banner {
+      padding: 50px 30px;
+
+      & > .title {
+        font-size: 2.75rem;
+
+        & > span {
+          font-size: 3.25rem;
+        }
+      }
+    }
+  }
+  @container (width <= 375px) {
+    .dashboard-grid-banner {
+      padding: 30px 20px;
+
+      & > .title {
+        font-size: 2rem;
+
+        & > span {
+          font-size: 2.25rem;
+        }
+      }
+    }
+  }
+}
+
+.dashboard-grid-card {
+  background-color: var(--white-col);
+  padding: var(--wrapper-padding);
+  transition: var(--duration-links);
+
+  & > * {
+    display: block;
+    text-align: center;
+  }
+
+  & > .icon {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+  }
+  & > .nums {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: var(--sec-col);
+    font-weight: 500;
+  }
+  & > small {
+    color: var(--grey-col);
+    font-size: 1rem;
+  }
+
+  &:hover {
+    background-color: var(--sec-col);
+    & > * {
+      color: var(--white-col) !important;
+    }
+  }
+}
+
+.dashboard-grid-banner {
+  background: url('https://thailand.k1travels.com/admin/images/b1.png')
+    no-repeat center/cover;
+  padding: 70px 50px;
+
+  & > .title {
+    font-size: 3rem;
+    font-weight: 500;
+
+    & > span {
+      font-size: 3.5rem;
+      font-weight: 700;
+      color: var(--white-col);
+    }
+  }
+}
+
+.dashboard-grid-details {
+  padding: var(--wrapper-padding);
+  background-color: rgb(172, 215, 252);
+
+  & > .detail-logo {
+    width: 100%;
+    max-width: 230px;
+  }
+  & > .detail-cont {
+    margin-top: var(--wrapper-padding);
+    & > * {
+      padding: 0px;
+      margin: 0px;
+    }
+    & > h4 {
+      margin-bottom: 10px;
+      font-size: 1.25rem;
+    }
+  }
+}
