@@ -3,17 +3,17 @@
   "name": "B2B Travel Management",
   "icons": [
     {
-      "src": "/images/logo-short.png",
+      "src": "https://tripocio.com/assets/image/Tripocio Logo- New Tagline 1.png",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/png"
     },
     {
-      "src": "/images/logo-short.png",
+      "src": "https://tripocio.com/assets/image/Tripocio Logo- New Tagline 1.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "/images/logo-short.png",
+      "src": "https://tripocio.com/assets/image/Tripocio Logo- New Tagline 1.png",
       "type": "image/png",
       "sizes": "512x512"
     }

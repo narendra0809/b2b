@@ -161,7 +161,7 @@ const Login = () => {
                   <div className="col-lg-6 d-flex align-items-center border-start border-light-subtle">
                     <div className="text-center text-muted px-3 py-4 p-md-5 mx-md-4">
                       <img
-                        src="/images/logo.png"
+                        src="https://tripocio.com/assets/image/Tripocio Logo- New Tagline 1.png"
                         className="mb-4 w-100"
                         style={{ maxWidth: '200px' }}
                         alt="logo"

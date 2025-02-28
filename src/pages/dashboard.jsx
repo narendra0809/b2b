@@ -305,7 +305,7 @@ const Dashboard = () => {
               </Link>
             </article>
             <article className="dashboard-grid-details">
-              <img src="/images/logo.png" alt="B2B" className="detail-logo" />
+              <img src="https://tripocio.com/assets/image/Tripocio Logo- New Tagline 1.png" alt="B2B" className="detail-logo" />
               <div className="detail-cont">
                 <h4>Account Manager</h4>
                 <p>Firstname Surname</p>

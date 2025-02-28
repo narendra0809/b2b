@@ -22,9 +22,9 @@ const Header = () => {
       <div className="header-left">
         <div className={`header-logo ${navActive ? 'deactive' : ''}`}>
           {navActive ? (
-            <img src="/images/logo-short.png" alt="DigiFlex" />
+            <img src="https://tripocio.com/assets/image/Tripocio Logo- New Tagline 1.png" alt="Tripocio" />
           ) : (
-            <img src="/images/logo.png" alt="DigiFlex" />
+            <img src="https://tripocio.com/assets/image/Tripocio Logo- New Tagline 1.png" alt="Tripocio" />
           )}
         </div>
         <button className="header-btn" onClick={activateNav}>
